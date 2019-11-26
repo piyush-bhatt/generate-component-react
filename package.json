@@ -1,6 +1,6 @@
 {
   "name": "generate-component-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a react component with specified name and options",
   "main": "cli.js",
   "bin": {
