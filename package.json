@@ -1,6 +1,6 @@
 {
   "name": "generate-component-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a react component with specified name and options",
   "main": "cli.js",
   "bin": {
@@ -8,6 +8,10 @@
     "gc": "./cli.js"
   },
   "author": "Piyush Bhatt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piyush-bhatt/generate-component-react.git"
+  }
   "license": "MIT",
   "dependencies": {
     "commander": "^4.0.1",
