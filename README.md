@@ -19,7 +19,7 @@ generate-component-react is a CLI generator for ReactJS components based on spec
 Use the package manager [npm](https://www.npmjs.com/) to install
 
 ```bash
-npm install -g create-component
+npm install -g generate-component-react
 ```
 
 ## Usage
