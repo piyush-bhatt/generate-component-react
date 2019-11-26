@@ -1,6 +1,6 @@
-# create-component
+# generate-component-react
 
-create-component is a CLI generator for ReactJS components based on specified name and options.
+generate-component-react is a CLI generator for ReactJS components based on specified name and options.
 
 ## Content
 
@@ -28,20 +28,20 @@ Make sure to execute the commands from your app root directory
 
 ### Functional Component
 ```bash
-create-component <component-name> -f
+generate component <component-name> -f
 ```
    or
 ```bash
-cc <component-name> --function
+gc <component-name> --function
 ```
 
 ### Class Based Component
 ```bash
-create-component <component-name> -c
+generate component <component-name> -c
 ```
    or
 ```bash
-cc <component-name> --class
+gc <component-name> --class
 ```
 
 
@@ -51,12 +51,12 @@ Following options can be used optionally,
 
 **--css** : add a CSS module for the generated component, e.g.,
 ```bash
-create-component <component-name> --class --css
+generate component <component-name> --class --css
 ```
 
 **-s** or **--state** : add state to the generated component, e.g.,
 ```bash
-create-component <component-name> --class --state
+generate component <component-name> --class --state
 ```
 
 ## Examples
@@ -64,7 +64,7 @@ create-component <component-name> --class --state
 * Sample component (functional component with state and css):
 
     ```bash
-    create-component sample --function --css --state
+    generate component sample --function --css --state
 
     CREATED <app-root-dir>\src\sample\sample.css
     CREATED <app-root-dir>\src\sample\sample.js
@@ -73,7 +73,7 @@ create-component <component-name> --class --state
 * Sample component (class based component without state but with css):
 
     ```bash
-    create-component sample --class --css
+    generate component sample --class --css
 
     CREATED <app-root-dir>\src\sample\sample.css
     CREATED <app-root-dir>\src\sample\sample.js
@@ -82,7 +82,7 @@ create-component <component-name> --class --state
 * Sample component (functional component in nested directory without state and css):
 
     ```bash
-    create-component components/sample --function
+    generate component components/sample --function
 
     CREATED <app-root-dir>\src\components\sample\sample.js
     CREATED <app-root-dir>\src\components\sample\index.js

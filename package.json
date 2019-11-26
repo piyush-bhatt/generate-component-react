@@ -1,11 +1,11 @@
 {
-  "name": "create-component",
+  "name": "generate-component-react",
   "version": "1.0.0",
-  "description": "Create a react component with specified name and options",
+  "description": "Generate a react component with specified name and options",
   "main": "cli.js",
   "bin": {
-    "create-component": "./cli.js",
-    "cc": "./cli.js"
+    "generate component": "./cli.js",
+    "gc": "./cli.js"
   },
   "author": "Piyush Bhatt",
   "license": "MIT",

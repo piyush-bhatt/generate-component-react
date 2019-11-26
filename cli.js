@@ -21,9 +21,9 @@ const program = require('commander')
     .option('--css', `Add <component-name>.css`)
     .parse(process.argv);
 
-createComponent(componentName);
+generateComponent(componentName);
 
-function createComponent(componentName) {
+function generateComponent(componentName) {
     if (componentName === undefined) {
         console.error('ERROR: No component name specified!');
         process.exit(1);
